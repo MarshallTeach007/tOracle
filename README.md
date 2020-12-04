@@ -1,5 +1,5 @@
 # tOracle
-- 1.modify truffle-config,use your mnemonic :
+-  modify truffle-config,use your mnemonic :
     - kovan: {
         provider: () => {
             return new HDWalletProvider("exile pepper buyer pyramid girl come city track top surprise tortoise sick", "https://kovan.infura.io/v3/f8b4397c14484aa382dd9b96412e1db9")
@@ -11,8 +11,8 @@
     },
 
 
-- 2. npm i
-- 3. truffle compile
-- 4. truffle migrate --network kovan
-- 5. cd App && npm i
-- 6. cd App && npm start
+- npm i
+-  truffle compile
+-  truffle migrate --network kovan
+-  cd App && npm i
+-  cd App && npm start
